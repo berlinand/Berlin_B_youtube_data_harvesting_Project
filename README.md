@@ -17,13 +17,14 @@ Enter one or more channel IDs, separated by commas, in the text box
 
 ![Screenshot 2024-02-23 202403](https://github.com/berlinand/Berlin_B_youtube_data_harvesting_Project/assets/154864172/94d1dfff-3ba1-4fc0-8a85-3b14c6cb27fe)
 1. After entering the channel ID, you can choose how many videos and comments you want
-2. If you don't enter a date for published video before or after text box, the API will provide details for the channel's most recent or latest videos
-3. If you enter both a date for videos published before and a date for videos published after in the text boxes, make sure the channel uploaded a video between those dates, or you will receive an error
+2. If you don't enter a date for published video before and after text box, the API will provide details for the channel's most recent or latest videos
+3. If you enter a date for either 'published before' or 'published after,' make sure the channel has videos for that date range
+4. If you enter both a date for videos published before and a date for videos published after in the text boxes, make sure the channel uploaded a video between those dates, or you will receive an error
  ![Screenshot 2024-02-23 202949](https://github.com/berlinand/Berlin_B_youtube_data_harvesting_Project/assets/154864172/eeed949c-f723-4aec-bce3-5302aba27f75)
-4. To store duplicate data in the MongoDB database, check the checkbox
-5. You can view the data before storing it in MongoDB by clicking the 'View Channel Details' button.
+5. To store duplicate data in the MongoDB database, check the checkbox
+6. You can view the data before storing it in MongoDB by clicking the 'View Channel Details' button.
 ![Screenshot 2024-02-23 203015](https://github.com/berlinand/Berlin_B_youtube_data_harvesting_Project/assets/154864172/912a6ac8-b794-420e-be7b-fcde932cc658)
-6. Now, store the data in MongoDB by clicking 'Store Data to MongoDB'
+7. Now, store the data in MongoDB by clicking 'Store Data to MongoDB'
 
 **CODE**
 1. Make sure to enter your YouTube API key and MongoDB link in the api_key and mongodblink variables
