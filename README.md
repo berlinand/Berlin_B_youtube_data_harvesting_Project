@@ -1,4 +1,4 @@
-# YouTube Data Harvesting and Warehousing using SQL, MongoDB and Streamlit
+# YouTube Data Harvesting and Warehousing using MYSQL, MongoDB and Streamlit
 ## Introduction:
    
   **Fetching YouTube data using the YouTube Data API, storing it in MongoDB or an unstructured database, migrating the data from MongoDB to 
