@@ -28,7 +28,7 @@ Enter one or more channel IDs, separated by commas, in the text box
 **CODE**
 1. Make sure to enter your YouTube API key and MongoDB link in the api_key and mongodblink variables
 ![Screenshot 2024-02-23 212932](https://github.com/berlinand/Berlin_B_youtube_data_harvesting_Project/assets/154864172/bf95a3a1-7ce2-4e48-a769-2150eafb4ff0)
-2. we are using four function from youtube api to fetch data from youtube
+2.I am using four function from youtube api to fetch data from youtube
      - channels()---->getting--channel details---->need---channel id
  ![Screenshot 2024-02-23 214912](https://github.com/berlinand/Berlin_B_youtube_data_harvesting_Project/assets/154864172/04e90cf7-945b-4f77-93f2-2bf5410fd47e)
      - search()-------> getting---video ids---->need------channel id
