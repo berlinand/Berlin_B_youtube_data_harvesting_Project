@@ -33,7 +33,7 @@ Enter one or more channel IDs, separated by commas, in the text box
      - channels()---->getting--channel details---->need---channel id
  ![Screenshot 2024-02-23 214912](https://github.com/berlinand/Berlin_B_youtube_data_harvesting_Project/assets/154864172/04e90cf7-945b-4f77-93f2-2bf5410fd47e)
      - search()-------> getting---video ids---->need------channel id
-          * i am using maxResults=vcount, vcount is video count,so there will be no leakeage of the youtube API quota
+          * i am using maxResults=vcount, vcount is video count,so there will be no overflow of the youtube API quota
 ![Screenshot 2024-02-23 215409](https://github.com/berlinand/Berlin_B_youtube_data_harvesting_Project/assets/154864172/53aede50-8974-4e8c-a42d-e63c8eab3785)
 
      - videos()-------->getting--video details--->need---video id
